@@ -1,0 +1,139 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #11999E;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+hr {
+    border: dotted rgb(126, 118, 118) 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.name {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    color: #3d3d3d;
+}
+
+.vProp {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 14%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    color: #3d3d3d;
+}
+
+.bitmoji {
+    border-radius: 50%;
+    height: 150px;
+}
+
+.mountains {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.top-container {
+    background: rgb(163,237,255);
+    background: linear-gradient(180deg, rgba(163,237,255,1) 0%, rgba(173,234,226,1) 50%, rgba(253,209,1,1) 91%);
+}
+
+.middle-container {
+    padding-top: 50px;
+    background-color: #FFD200;
+    padding-bottom: 130px;
+}
+
+.bottom-container {
+    padding: 20px;
+    background-color: #60bbaa;
+}
+
+.skill-row {
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.code-img {
+    width: 35%;
+    float: left;
+}
+
+.code-skill-desc {
+    
+}
+
+.intro {
+    width: 3 0%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000 !important;
+    font-size: 15px;
+    /* text-shadow: 1px 1px 0px #7CACDE; */
+    box-shadow: 1px 1px 3px rgb(61, 61, 61);
+    padding: 13px 15px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 8px;
+    border: 1px outset rgb(24, 236, 151);
+    background: rgb(0, 224, 86);
+  }
+  .btn:hover {
+    color: rgb(255, 255, 255) !important;
+    background: #468CCF;
+    border: 1px outset #36BA85;
+  }
+
+  .copyright {
+      color: #EAEAF6;
+      font-size: 0.75rem;
+      padding: 20px 0;
+  }
