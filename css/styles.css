@@ -55,7 +55,7 @@ hr {
     position: absolute;
     left: 0;
     right: 0;
-    top: 14%; /* Adjust this value to move the positioned div up and down */
+    top: 10%; /* Adjust this value to move the positioned div up and down */
     text-align: center;
     color: #3d3d3d;
 }
